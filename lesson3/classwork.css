@@ -32,3 +32,53 @@ body{
     height: 300px;
     background: #a6ed64;
 }
+        /*====2_1====*/
+.block21{
+    margin: 20px;
+    width: 500px;
+    height: 500px;
+    background: burlywood;
+    display: flex;
+    align-content: space-around;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#header{
+    width: 450px;
+    height: 50px;
+    background: chocolate;
+}
+.center{
+    display: flex;
+    background: cornflowerblue;
+    height: 350px;
+    width: 450px;
+    justify-content: space-between;
+}
+#menu{
+    background: #8451b7;
+    width: 120px;
+    height: 350px;
+}
+.post22{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.post{
+    background: aqua;
+    width: 270px;
+    height: 120px;
+}
+.post1{
+    width: 270px;
+    height: 120px;
+    background: #dec627;
+}
+#footer{
+    width: 450px;
+    height: 50px;
+    background: chocolate;
+}

@@ -1,0 +1,140 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.big_block{
+    display: flex;
+    flex-direction: column;
+}
+.block1{
+    flex-direction: row;
+    height: 250px;
+    width: 600px;
+    border: 5px solid aqua;
+    border-radius: 20px;
+}
+.small_block{
+    display: flex;
+    flex-direction: row;
+}
+.box{
+    display: flex;
+    height: 200px;
+    width: 500px;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.text1{
+    background: #968a38;
+    width: 60px;
+    height: 30px;
+    border-radius: 20px;
+}
+.text2{
+    background: #a6ed64;
+    width: 40px;
+    height: 30px;
+    border-radius: 20px;
+}
+.content{
+    background: #19266e;
+    width: 100px;
+    height: 70px;
+    border-radius: 20px;
+}
+.end{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.text4{
+    background: #5e1b1d;
+    width: 60px;
+    height: 30px;
+    border-radius: 20px;
+}
+.text5{
+    background: #6e6019;
+    width: 40px;
+    height: 30px;
+    border-radius: 20px;
+}
+.block2{
+    display: flex;
+    background: antiquewhite;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 10px;
+    height: 250px;
+    width: 600px;
+}
+.content_text{
+    display: flex;
+    flex-direction: column;
+}
+.circle{
+    display: flex;
+    background: #dec627;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: 10px;
+}
+.text_content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.text_start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text_content1{
+    background: #968a38;
+    width: 60px;
+    height: 30px;
+    border-radius: 20px;
+}
+.text_content2{
+    background: #a6ed64;
+    width: 40px;
+    height: 30px;
+    border-radius: 20px;
+}
+.text_end{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.text_content3{
+    background: #5e1b1d;
+    width: 60px;
+    height: 30px;
+    border-radius: 20px;
+}
+.text_content4{
+    background: #6e6019;
+    width: 20px;
+    height: 30px;
+    border-radius: 20px;
+}
+.text_content5{
+    background: #9b07d5;
+    width: 40px;
+    height: 30px;
+    border-radius: 20px;
+}
+.border{
+    border: 5px solid aqua;
+}
