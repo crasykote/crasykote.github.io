@@ -82,3 +82,59 @@ body{
     height: 50px;
     background: chocolate;
 }
+        /*====3====*/
+.conteiner3{
+    background: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 800px;
+    height: 300px;
+
+}
+.A3{
+    background: chocolate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.big_cont3{
+    display: flex;
+}
+
+.small_cont3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 600px;
+}
+.B3{
+    background: #6e6019;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 600px;
+}
+.C3 {
+    background: #dec627;
+    height: 100px;
+    width: 200px;
+}
+.D3{
+    background: brown;
+    height: 100px;
+    width: 200px;
+}
+.E3 {
+    background: #a6ed64;
+    height: 100px;
+    width: 200px;
+}
+.F3{
+    background: cornflowerblue;
+    height: 200px;
+    width: 400px;
+   display: flex;
+}
