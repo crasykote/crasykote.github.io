@@ -273,6 +273,7 @@ body{
     flex-wrap: nowrap;
     height: 670px;
     width: 520px;
+    margin-bottom: 50px;
 }
 .Widgets{
     background: blue;
@@ -313,6 +314,60 @@ body{
     background: #45a52a;
     height: 300px;
     width: 520px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+        /*====les3_hw2_2====*/
+.hw2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 650px;
+    width: 500px;
+}
+.Header{
+    background: #dec627;
+    height: 100px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Nav{
+    background: #28810f;
+    height: 100px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Main_Aside{
+    background: rgba(46, 46, 210, 0.8);
+    display: flex;
+    flex-direction: row;
+
+}
+.Main{
+    background: #ab9d33;
+    height: 350px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Aside{
+    background: #9b07d5;
+    height: 350px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Footer{
+    background: #d50719;
+    height: 100px;
+    width: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
