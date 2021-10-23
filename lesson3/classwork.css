@@ -90,6 +90,7 @@ body{
     flex-wrap: wrap;
     width: 800px;
     height: 300px;
+    margin-bottom: 50px;
 
 }
 .A3{
@@ -136,5 +137,70 @@ body{
     background: cornflowerblue;
     height: 200px;
     width: 400px;
-   display: flex;
+    display: flex;
+}
+        /*====4====*/
+.conteiner4{
+    background: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 800px;
+    height: 300px;
+}
+.A4{
+    background: #1ed2b1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.big_cont4{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 200px;
+}
+.contBCD{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 600px;
+}
+.B4{
+    background: #dec627;
+    height: 100px;
+    width: 200px;
+}
+.C4{
+    background: brown;
+    height: 100px;
+    width: 200px;
+}
+.D4{
+    background: #ed7d64;
+    height: 100px;
+    width: 200px;
+}
+.E4{
+    background: #a6ed64;
+    height: 100px;
+    width: 200px;
+}
+.F4{
+    background: #45a52a;
+    height: 100px;
+    width: 200px;
+}
+.G4{
+    background: #ab9d33;
+    height: 100px;
+    width: 200px;
+}
+.H4{
+    background: #a264ed;
+    height: 200px;
+    width: 200px;
+    display: flex;
 }
