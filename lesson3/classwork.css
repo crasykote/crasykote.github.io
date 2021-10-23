@@ -212,6 +212,7 @@ body{
     flex-direction: column;
     height: 790px;
     width: 500px;
+    margin-bottom: 50px;
 }
 
 .Home_About{
