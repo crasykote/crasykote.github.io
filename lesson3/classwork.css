@@ -95,9 +95,6 @@ body{
 }
 .A3{
     background: chocolate;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100px;
 }
 .big_cont3{
@@ -112,9 +109,6 @@ body{
 }
 .B3{
     background: #6e6019;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100px;
     width: 600px;
 }
@@ -151,9 +145,6 @@ body{
 }
 .A4{
     background: #1ed2b1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100px;
 }
 .big_cont4{
@@ -203,7 +194,6 @@ body{
     background: #a264ed;
     height: 200px;
     width: 200px;
-    display: flex;
 }
         /*====6====*/
 .conteiner6{
@@ -248,8 +238,6 @@ body{
 }
 .Kabobs_clasificated{
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
     align-items: flex-end;
     height: 190px;
     width: 500px;
@@ -274,6 +262,57 @@ body{
     background: #131359;
     height: 190px;
     width: 166px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+        /*====les3_hw2_2====*/
+.hw2_2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 670px;
+    width: 520px;
+}
+.Widgets{
+    background: blue;
+    height: 200px;
+    width: 520px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Widgets_clasificated{
+    display: flex;
+}
+.Big_Widgets{
+    background: #19266e;
+    height: 167px;
+    width: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Bigger_Widgets{
+    background: #8451b7;
+    height: 167px;
+    width: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Huge_Widgets{
+    background: #1ed2b1;
+    height: 167px;
+    width: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Contact{
+    background: #45a52a;
+    height: 300px;
+    width: 520px;
     display: flex;
     justify-content: center;
     align-items: center;
