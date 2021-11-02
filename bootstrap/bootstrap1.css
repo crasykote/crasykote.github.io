@@ -164,10 +164,12 @@ table {
     width: 1240px;
     height: 800px;
     column-gap: 60px;
+    padding: 10px;
 }
 
 .block {
     position: relative;
+    top: 100px;
     width: 349px;
     height: 328px;
     background: #FFFFFF;
@@ -175,7 +177,7 @@ table {
     font-size: 26px;
     text-align: center;
     padding-top: 25px;
-    margin-bottom: 220px;
+    margin: 0 20px;
 }
 
 .content_block {
