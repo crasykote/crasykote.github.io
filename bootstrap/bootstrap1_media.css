@@ -1,6 +1,12 @@
 @media screen and (max-width: 375px) {
+    .header__top {
+        padding: 40px 14px;
+    }
+
     .header__menu {
-        display: none;
+        display: none !important;
+        position: absolute;
+        flex-direction: column;
     }
 
     .header__logo img {
