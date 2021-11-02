@@ -79,12 +79,12 @@ table {
 }
 
 .header__phone {
-    font-size: 17px;
+    font-size: 16px;
     line-height: 25px;
     width: 155px;
     border-left: 2px solid #fff;
     padding-left: 15px;
-    margin-right: 30px;
+    margin-right: 35px;
 }
 
 .header__contact {
@@ -163,7 +163,7 @@ table {
 .header__intro wrapper {
     width: 1240px;
     height: 800px;
-    column-gap: 50px;
+    column-gap: 60px;
 }
 
 .block {
@@ -173,9 +173,8 @@ table {
     background: #FFFFFF;
     box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
     font-size: 26px;
-    line-height: 30px;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 25px;
     margin-bottom: 220px;
 }
 
@@ -192,6 +191,7 @@ table {
 .block_text {
     color: #656363;
     padding: 0 20px;
+    height: 40px;
 }
 
 .block_text1 {
