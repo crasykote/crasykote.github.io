@@ -1,4 +1,8 @@
 @media screen and (max-width: 414px) {
+    .header {
+        height: 900px;
+    }
+
     .header__menu {
         display: none !important;
         position: absolute;
@@ -46,19 +50,17 @@
         display: none;
     }
 
-    .header__intro wrapper{
+    .header__intro {
         display: flex;
         flex-direction: column;
-        flex-wrap: nowrap;
         align-items: center;
-        padding: 15px;
-        margin-top: 200px;
+        row-gap: 14px;
+        margin-top: -85px;
+        padding-bottom: 150px;
     }
 
     .block {
-        position: absolute;
-        top: 555px;
-        flex-direction: column;
+        position: relative;
+        margin-bottom: 20px;
     }
-
 }
