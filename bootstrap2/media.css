@@ -1,0 +1,136 @@
+@media screen and (max-width: 400px) {
+    .first-screen-left h1 {
+        font-size: 40px;
+        line-height: 52px;
+        padding-left: 20px;
+        margin-bottom: 50px;
+    }
+
+    .first-screen-right-Air img {
+        bottom: 220px;
+        position: relative;
+        width: 354px;
+        height: 355px;
+        left: 16px;
+
+    }
+
+    .first-screen-text {
+        padding-right: 40px;
+        top: 365px;
+        margin-left: 10px;
+        z-index: 1;
+    }
+
+    .first-screen-left .first-screen-text::before,
+    .first-screen-left .first-screen-text::after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 227px;
+        height: 7px;
+        left: 40px;
+        background-color: #EDEFF3;
+    }
+
+    .first-screen-left .first-screen-text::before {
+        display: none;
+    }
+
+    .first-screen-left .first-screen-text::after {
+        bottom: 600px;
+    }
+
+    .first-screen-right img {
+        position: absolute;
+        width: 414px;
+        height: 234px;
+        left: -20px;
+        top: 1120px;
+    }
+
+    .first-screen-left h2{
+        position: absolute;
+        width: 295.64px;
+        height: 40px;
+        left: 30.01px;
+        top: 1400px;
+        text-align: center;
+        letter-spacing: 2.42px;
+        color: #1652AC;
+    }
+
+    .first-screen-text-two {
+        position: relative;
+        width: 343px;
+        height: 250px;
+        left: 15px;
+        top: 300px;
+        padding-right: 25px;
+
+    }
+
+    .img-fluid {
+        position: absolute;
+        width: 378px;
+        height: 505px;
+        left: 0px;
+        top: 1775px;
+    }
+
+    .Rectangle {
+        position: absolute;
+        width: 375px;
+        height: 575px;
+        left: 0px;
+        top: 2369px;
+    }
+
+    .first-screen-right-modernste h3 {
+        position: absolute;
+        width: 375px;
+        height: 40px;
+        left: -15px;
+        top: 2440px;
+    }
+
+    .modernste-screen-text {
+        position: absolute;
+        width: 344px;
+        height: 464px;
+        font-size: 16px;
+        line-height: 32px;
+        letter-spacing: -0.4px;
+        left: 16px;
+        top: 2480px;
+    }
+
+    .end-screen-right {
+        position: absolute;
+        width: 692px;
+        height: 555px;
+        left: -830px;
+        top: 2700px;
+    }
+
+    .end-screen-left h3 {
+        position: absolute;
+        width: 341.62px;
+        height: 40px;
+        left: 18.01px;
+        top: 3337px;
+        font-size: 18px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: 2.42px;
+    }
+
+    .end-screen-text {
+        position: absolute;
+        width: 343px;
+        height: 504px;
+        left: 16px;
+        top: 3565px;
+    }
+
+}
