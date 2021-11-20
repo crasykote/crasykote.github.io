@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Classwork4</title>
+</head>
+<body>
+
+<script>
+    // - створити функцію яка приймає три числа та виводить найменьше. (Без Math.min!)
+
+    // function numMin(num1, num2, num3) {
+    //     if (num1 < num2 && num1 < num3) {
+    //         document.write(num1);
+    //         console.log(num1);
+    //     } else if (num2 < num3 && num2 < num1) {
+    //         console.log(num2);
+    //         document.write(num2);
+    //     } else {
+    //         console.log(num3);
+    //         document.write(num3);
+    //     }
+    // };
+    // numMin(32, 8989, 545);
+
+
+
+
+    // - створити функцію яка приймає три числа та виводить найбільше. (Без Math.max!)
+    //
+    // function numMax(num1, num2, num3) {
+    //     if (num1 > num2 && num1 > num3) {
+    //         document.write(num1);
+    //         console.log(num1);
+    //     } else if (num2 > num3 && num2 > num1) {
+    //         console.log(num2);
+    //         document.write(num2);
+    //     } else {
+    //         console.log(num3);
+    //         document.write(num3);
+    //     }
+    // };
+    // numMax(23445, 2021, 3);
+
+
+
+
+    // - створити функцію яка повертає найбільше число з масиву
+
+    // let maxArray = [232,2,32,98,7799,323,65]
+    // function arrayMax(array) {
+    //     let max = array[0];
+    //     for (const element of array) {
+    //         if (element > max){
+    //             max = element;
+    //         }
+    //     }
+    //     return max;
+    // }
+    // document.write(`<h2>Найбільший елемент масиву: ${arrayMax(maxArray)}</h2>`)
+
+
+
+    // - створити функцію яка повертає найменьше число з масиву
+
+    // let minArray = [250,21,0,8789,-39,45,89,43]
+    // function arrayMin(array) {
+    //     let min = array[0];
+    //     for (const num of array) {
+    //         if(num < min){
+    //             min = num;
+    //         }
+    //     }
+    //     return min;
+    // }
+    // document.write(`<h2>Найменши елемент масиву: ${arrayMin(minArray)}</h2>`)
+
+
+
+
+    // - створити функцію яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад [1,2,10]->13
+
+  // let summArray = [2,3,5,10];
+  //   function sumElement (array){
+  //       let sum = 0;
+  //       for (const arrayElement of array) {
+  //           sum = arrayElement + sum;
+  //       }
+  //       return sum;
+  //   }
+  //   document.write(sumElement(summArray))
+
+
+
+
+    // - створити функцію яка приймає масив чисел та повертає середнє арифметичне його значень.
+
+    // let mediumArray =[25,15,55,35];
+    // function medium (array){
+    //     let sum = 0;
+    //     for (const arrayNumb of array) {
+    //         sum += arrayNumb;
+    //     }
+    //     return sum/array.length;
+    // }
+    // document.write(medium(mediumArray))
+
+
+
+
+    // - створити функцію яка приймає будь-яку кількість чисел, повертає найменьше, а виводить найбільше (Math використовувати заборонено);
+
+    // function minMax(arg) {
+    //     let min = arguments[0];
+    //     let max = arguments[0];
+    //     for (const numb of arguments) {
+    //         if (numb > max) {
+    //             max = numb;
+    //         }
+    //         if (numb < min) {
+    //             min = numb;
+    //         }
+    //     }
+    //     console.log("max", max);
+    //     return min;
+    // }
+    // document.write('Мінімальне число з введених: ' + minMax(1, -1, 43, 0, 67))
+
+
+
+
+    // - створити функцію яка заповнює масив рандомними числами
+    // (цей код генерує рандомні числа в діапазоні від 0 до 100 - Math.round(Math.random()*100)) та виводить його.
+
+    // function funRandom(length) {
+    //     let arrayEmpty = [];
+    //     for (let i = 0; i < length; i++) {
+    //         arrayEmpty.push(Math.floor(Math.random()*100));
+    //     }
+    //     return arrayEmpty
+    // };
+    //
+    // document.write(funRandom(5))
+
+
+
+
+    // - створити функцію яка заповнює масив рандомними числами в діапазоні від 0 до limit. limit - аргумент, який характеризує кінцеве значення діапазону.
+
+    // function randomNumb(length,limit) {
+    //     let emptyArray = [];
+    //     for (let i = 0; i < length; i++) {
+    //         emptyArray.push(Math.round(Math.random() * limit));
+    //     }
+    //     return emptyArray;
+    // }
+    // document.write(randomNumb(5,20));
+
+
+
+
+    // - Функція приймає масив та робить з нього новий масив в зворотньому порядку. [1,2,3] -> [3, 2, 1].
+
+    // let newArr = [1,2,3];
+    // function reverse(arr) {
+    //     let newArr = [1,2,3];
+    //     // for (let i = arr.length - 1; i >= 0; i--) {
+    //     //     const arrElement = arr[i];
+    //     //     newArr.push(arrElement);
+    //     // }
+    //     for (let i = newArr.length - 1, ri = 0; i >= 0; i--, ri++) {
+    //         newArr[ri] = newArr[i];
+    //
+    //     }
+    //
+    //     return newArr;
+    // }
+    // console.log(reverse(newArr));
+    // console.log(newArr);
+
+
+
+</script>
+
+</body>
+</html>
