@@ -15,7 +15,7 @@
             let button = document.createElement('button');
             button.innerText = 'show comments';
             button.onclick = function () {
-                fetch(`http://jsonplaceholder.typicode.com/posts/${postItem.id}/comments`)
+                fetch(`https://jsonplaceholder.typicode.com/posts/${postItem.id}/comments`)
                     .then(value => value.json())
                     .then(value => {
                        let commentsDiv = document.createElement('div');
@@ -28,6 +28,7 @@
                         }
 
                         postDiv.appendChild(commentsDiv);
+                        button.disabled = 'true';
 
                     });
             };
